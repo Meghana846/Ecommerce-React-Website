@@ -1,0 +1,429 @@
+[debug] [2022-05-09T04:39:38.902Z] ----------------------------------------------------------------------
+[debug] [2022-05-09T04:39:38.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Meghana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-05-09T04:39:38.905Z] CLI Version:   10.8.0
+[debug] [2022-05-09T04:39:38.905Z] Platform:      win32
+[debug] [2022-05-09T04:39:38.905Z] Node Version:  v16.14.0
+[debug] [2022-05-09T04:39:38.906Z] Time:          Mon May 09 2022 10:09:38 GMT+0530 (India Standard Time)
+[debug] [2022-05-09T04:39:38.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-09T04:39:39.055Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-09T04:39:39.055Z] > authorizing via signed-in user (meghanareddy4822@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[debug] [2022-05-09T04:39:39.090Z] [hub] writing locator at C:\Users\Meghana\AppData\Local\Temp\hub-myreact-7bae6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-09T04:39:39.940Z] defaultcredentials: writing to file C:\Users\Meghana\AppData\Roaming\firebase\meghanareddy4822_gmail_com_application_default_credentials.json
+[debug] [2022-05-09T04:39:39.942Z] Setting GAC to C:\Users\Meghana\AppData\Roaming\firebase\meghanareddy4822_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Meghana\\AppData\\Roaming\\firebase\\meghanareddy4822_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-09T04:39:39.946Z] > refreshing access token with scopes: []
+[debug] [2022-05-09T04:39:39.948Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-09T04:39:40.283Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 09 May 2022 04:39:40 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-09T04:39:40.457Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig [none]
+[debug] [2022-05-09T04:39:41.121Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig 200
+[debug] [2022-05-09T04:39:41.121Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig {"projectId":"myreact-7bae6","storageBucket":"myreact-7bae6.appspot.com","locationId":"us-central"}
+[debug] [2022-05-09T04:39:41.311Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites 
+[debug] [2022-05-09T04:39:43.342Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites 200
+[debug] [2022-05-09T04:39:43.342Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites {"sites":[{"name":"projects/myreact-7bae6/sites/myreact-7bae6","defaultUrl":"https://myreact-7bae6.web.app","appId":"1:714416478132:web:844080e2cc197a2aa104e1","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-09T04:39:43.343Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config [none]
+[debug] [2022-05-09T04:39:44.704Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config 200
+[debug] [2022-05-09T04:39:44.705Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config {"projectId":"myreact-7bae6","appId":"1:714416478132:web:844080e2cc197a2aa104e1","storageBucket":"myreact-7bae6.appspot.com","locationId":"us-central","apiKey":"AIzaSyA_ndFTWelzq2P3ntvj5yefIhLfG_nhE0I","authDomain":"myreact-7bae6.firebaseapp.com","messagingSenderId":"714416478132","measurementId":"G-BDRQ8JBCR2"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-09T04:39:45.212Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-09T04:39:45.213Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-09T04:39:45.213Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Meghana\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Meghana\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-09T04:39:45.439Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "F:\ReactProject\my-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"F:\\ReactProject\\my-app\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-09T04:39:45.501Z] Validating nodejs source
+[debug] [2022-05-09T04:39:49.594Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.222.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-09T04:39:49.594Z] Building nodejs source
+[debug] [2022-05-09T04:39:49.594Z] Analyzing nodejs backend spec
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/myreact-7bae6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/myreact-7bae6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-09T04:40:24.772Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T04:40:24.774Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T04:40:24.775Z] Accepted request GET /myreact-7bae6/us-central1/api --> us-central1-api
+[debug] [2022-05-09T04:40:24.798Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-09T04:40:24.799Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-09T04:40:24.799Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T04:40:24.800Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:40:24.800Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T04:40:26.063Z] [runtime-status] [5456] Functions runtime initialized. {"cwd":"F:\\ReactProject\\my-app\\functions","node_version":"16.14.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Functions runtime initialized. {\"cwd\":\"F:\\\\ReactProject\\\\my-app\\\\functions\",\"node_version\":\"16.14.0\"}"}}
+[debug] [2022-05-09T04:40:26.064Z] [runtime-status] [5456] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Disabled runtime features: undefined"}}
+[debug] [2022-05-09T04:40:26.066Z] [runtime-status] [5456] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.067Z] [runtime-status] [5456] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.068Z] [runtime-status] [5456] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-09T04:40:26.069Z] [runtime-status] [5456] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.105Z] [runtime-status] [5456] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-09T04:40:26.106Z] [runtime-status] [5456] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-09T04:40:26.107Z] [runtime-status] [5456] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.108Z] [runtime-status] [5456] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.108Z] [runtime-status] [5456] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-09T04:40:26.108Z] [runtime-status] [5456] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-09T04:40:26.239Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T04:40:26.240Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T04:40:26.242Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:40:26.252Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T04:40:26.253Z] [functions] Got req.url=/myreact-7bae6/us-central1/api, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api, mapping to path=/"}}
+[debug] [2022-05-09T04:40:26.259Z] [runtime-status] [5456] Ephemeral server handling GET request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling GET request"}}
+[debug] [2022-05-09T04:40:26.266Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T04:40:26.281Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T04:40:26.282Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T04:40:26.312Z] Functions emulator received unknown request at path /favicon.ico
+[debug] [2022-05-09T04:40:51.541Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T04:40:51.541Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T04:40:51.541Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=23900 --> us-central1-api
+[debug] [2022-05-09T04:40:51.541Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T04:40:51.542Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:40:51.542Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T04:40:51.543Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T04:40:51.546Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T04:40:51.548Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:40:51.551Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T04:40:51.552Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900"}}
+[debug] [2022-05-09T04:40:51.559Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  23900 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  23900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  23900"}}
+[debug] [2022-05-09T04:40:51.583Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T04:40:53.516Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T04:40:53.517Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T04:47:47.258Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T04:47:47.258Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T04:47:47.258Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=23900 --> us-central1-api
+[debug] [2022-05-09T04:47:47.259Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T04:47:47.259Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:47:47.259Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T04:47:47.260Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T04:47:47.263Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T04:47:47.263Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:47:47.267Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T04:47:47.267Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900"}}
+[debug] [2022-05-09T04:47:47.276Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  23900 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  23900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  23900"}}
+[debug] [2022-05-09T04:47:47.280Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T04:47:47.866Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T04:47:47.868Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T04:50:02.102Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T04:50:02.103Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T04:50:02.104Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=599 --> us-central1-api
+[debug] [2022-05-09T04:50:02.104Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T04:50:02.105Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:50:02.105Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T04:50:02.107Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T04:50:02.112Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T04:50:02.114Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:50:02.119Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T04:50:02.120Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599"}}
+[debug] [2022-05-09T04:50:02.127Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  599 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  599","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  599"}}
+[debug] [2022-05-09T04:50:02.133Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T04:50:02.794Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T04:50:02.795Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T04:53:32.457Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T04:53:32.459Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T04:53:32.463Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=23900 --> us-central1-api
+[debug] [2022-05-09T04:53:32.464Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T04:53:32.465Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:53:32.465Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T04:53:32.468Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T04:53:32.472Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T04:53:32.473Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T04:53:32.477Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T04:53:32.478Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=23900, mapping to path=/payments/create?total=23900"}}
+[debug] [2022-05-09T04:53:32.481Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  23900 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  23900","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  23900"}}
+[debug] [2022-05-09T04:53:32.487Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T04:53:33.088Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T04:53:33.089Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T05:00:03.269Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T05:00:03.270Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T05:00:03.270Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=1198 --> us-central1-api
+[debug] [2022-05-09T05:00:03.270Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T05:00:03.271Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T05:00:03.271Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T05:00:03.273Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T05:00:03.277Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T05:00:03.277Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T05:00:03.284Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T05:00:03.286Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198"}}
+[debug] [2022-05-09T05:00:03.291Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  1198 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  1198","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  1198"}}
+[debug] [2022-05-09T05:00:03.300Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T05:00:03.985Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T05:00:03.986Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T05:00:07.326Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T05:00:07.326Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T05:00:07.326Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=599 --> us-central1-api
+[debug] [2022-05-09T05:00:07.327Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T05:00:07.327Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T05:00:07.327Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T05:00:07.328Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T05:00:07.329Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T05:00:07.330Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T05:00:07.333Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T05:00:07.333Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599"}}
+[debug] [2022-05-09T05:00:07.335Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  599 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  599","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  599"}}
+[debug] [2022-05-09T05:00:07.338Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T05:00:07.800Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T05:00:07.801Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T06:40:03.193Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T06:40:03.195Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T06:40:03.195Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=599 --> us-central1-api
+[debug] [2022-05-09T06:40:03.196Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T06:40:03.196Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T06:40:03.196Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T06:40:03.198Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T06:40:03.202Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T06:40:03.203Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T06:40:03.207Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T06:40:03.208Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599"}}
+[debug] [2022-05-09T06:40:03.211Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  599 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  599","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  599"}}
+[debug] [2022-05-09T06:40:03.215Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T06:40:03.952Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T06:40:03.953Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T07:45:17.153Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-09T07:45:17.154Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-09T07:45:17.154Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=599 --> us-central1-api
+[debug] [2022-05-09T07:45:17.155Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-09T07:45:17.156Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T07:45:17.156Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: BUSY"}}
+[debug] [2022-05-09T07:45:17.159Z] [runtime-status] [5456] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-09T07:45:17.163Z] [runtime-status] [5456] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Running api in signature http"}}
+[debug] [2022-05-09T07:45:17.170Z] [runtime-status] [5456] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\5456 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\5456"}}
+[debug] [2022-05-09T07:45:17.177Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-09T07:45:17.178Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=599, mapping to path=/payments/create?total=599"}}
+[debug] [2022-05-09T07:45:17.186Z] [runtime-status] [5456] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  599 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  599","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  599"}}
+[debug] [2022-05-09T07:45:17.190Z] [runtime-status] [5456] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [5456] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-09T07:45:17.816Z] [worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-608f487e-6314-4d8e-b5bc-3703738b5ccd]: IDLE"}}
+[debug] [2022-05-09T07:45:17.817Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-09T07:49:06.215Z] Received signal SIGHUP 1
+[debug] [2022-05-19T04:36:21.471Z] ----------------------------------------------------------------------
+[debug] [2022-05-19T04:36:21.475Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Meghana\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2022-05-19T04:36:21.476Z] CLI Version:   10.8.0
+[debug] [2022-05-19T04:36:21.476Z] Platform:      win32
+[debug] [2022-05-19T04:36:21.476Z] Node Version:  v16.14.0
+[debug] [2022-05-19T04:36:21.477Z] Time:          Thu May 19 2022 10:06:21 GMT+0530 (India Standard Time)
+[debug] [2022-05-19T04:36:21.478Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-19T04:36:21.519Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-05-19T04:36:21.727Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-19T04:36:21.727Z] > authorizing via signed-in user (meghanareddy4822@gmail.com)
+[info] i  emulators: Starting emulators: functions, hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions, hosting"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project myreact-7bae6. This may result in unexpected behavior. 
+[debug] [2022-05-19T04:36:21.758Z] [hub] writing locator at C:\Users\Meghana\AppData\Local\Temp\hub-myreact-7bae6.json
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@16 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@16 from host."}}
+[debug] [2022-05-19T04:36:21.889Z] defaultcredentials: writing to file C:\Users\Meghana\AppData\Roaming\firebase\meghanareddy4822_gmail_com_application_default_credentials.json
+[debug] [2022-05-19T04:36:21.901Z] Setting GAC to C:\Users\Meghana\AppData\Roaming\firebase\meghanareddy4822_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Meghana\\AppData\\Roaming\\firebase\\meghanareddy4822_gmail_com_application_default_credentials.json"}}
+[debug] [2022-05-19T04:36:21.903Z] > refreshing access token with scopes: []
+[debug] [2022-05-19T04:36:21.904Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-19T04:36:22.085Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 19 May 2022 04:36:21 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-19T04:36:22.215Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig [none]
+[debug] [2022-05-19T04:36:22.595Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-19T04:36:22.596Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-05-19T04:36:22.840Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig 200
+[debug] [2022-05-19T04:36:22.840Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/adminSdkConfig {"projectId":"myreact-7bae6","storageBucket":"myreact-7bae6.appspot.com","locationId":"us-central"}
+[debug] [2022-05-19T04:36:23.825Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites 
+[debug] [2022-05-19T04:36:25.731Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites 200
+[debug] [2022-05-19T04:36:25.732Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/myreact-7bae6/sites {"sites":[{"name":"projects/myreact-7bae6/sites/myreact-7bae6","defaultUrl":"https://myreact-7bae6.web.app","appId":"1:714416478132:web:844080e2cc197a2aa104e1","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-19T04:36:25.732Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config [none]
+[debug] [2022-05-19T04:36:27.099Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config 200
+[debug] [2022-05-19T04:36:27.099Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/myreact-7bae6/webApps/1:714416478132:web:844080e2cc197a2aa104e1/config {"projectId":"myreact-7bae6","appId":"1:714416478132:web:844080e2cc197a2aa104e1","storageBucket":"myreact-7bae6.appspot.com","locationId":"us-central","apiKey":"AIzaSyA_ndFTWelzq2P3ntvj5yefIhLfG_nhE0I","authDomain":"myreact-7bae6.firebaseapp.com","messagingSenderId":"714416478132","measurementId":"G-BDRQ8JBCR2"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
+[debug] [2022-05-19T04:36:27.690Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-05-19T04:36:27.691Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-05-19T04:36:27.691Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Meghana\\.cache\\firebase\\emulators\\ui-v1.6.6\\server.bundle.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Meghana\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.6.6\\\\server.bundle.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-05-19T04:36:27.907Z] Web / API server started at localhost:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at localhost:4000\n"}}
+[info] i  functions: Watching "F:\ReactProject\my-app\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"F:\\ReactProject\\my-app\\functions\" for Cloud Functions..."}}
+[debug] [2022-05-19T04:36:27.965Z] Validating nodejs source
+[warn] !  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[debug] [2022-05-19T04:36:35.560Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^3.18.0",
+    "stripe": "^8.222.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-05-19T04:36:35.561Z] Building nodejs source
+[debug] [2022-05-19T04:36:35.561Z] Analyzing nodejs backend spec
+[info] +  functions[us-central1-api]: http function initialized (http://localhost:5001/myreact-7bae6/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://localhost:5001/myreact-7bae6/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://localhost:4000                │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ localhost:5001 │ http://localhost:4000/functions │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Hosting   │ localhost:5000 │ n/a                             │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at localhost:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-05-19T04:37:18.498Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-19T04:37:18.498Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-19T04:37:18.499Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=24499 --> us-central1-api
+[debug] [2022-05-19T04:37:18.508Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2022-05-19T04:37:18.509Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2022-05-19T04:37:18.509Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-19T04:37:18.510Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:37:18.510Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY"}}
+[debug] [2022-05-19T04:37:19.861Z] [runtime-status] [1840] Functions runtime initialized. {"cwd":"F:\\ReactProject\\my-app\\functions","node_version":"16.14.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Functions runtime initialized. {\"cwd\":\"F:\\\\ReactProject\\\\my-app\\\\functions\",\"node_version\":\"16.14.0\"}"}}
+[debug] [2022-05-19T04:37:19.862Z] [runtime-status] [1840] Disabled runtime features: undefined {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Disabled runtime features: undefined"}}
+[debug] [2022-05-19T04:37:19.865Z] [runtime-status] [1840] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.867Z] [runtime-status] [1840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.868Z] [runtime-status] [1840] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-05-19T04:37:19.869Z] [runtime-status] [1840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.909Z] [runtime-status] [1840] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-05-19T04:37:19.909Z] [runtime-status] [1840] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-19T04:37:19.910Z] [runtime-status] [1840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.911Z] [runtime-status] [1840] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.912Z] [runtime-status] [1840] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.21.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"3.21.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\index.js\"}"}}
+[debug] [2022-05-19T04:37:19.912Z] [runtime-status] [1840] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.2.0","resolution":"F:\\ReactProject\\my-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.2.0\",\"resolution\":\"F:\\\\ReactProject\\\\my-app\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-05-19T04:37:20.048Z] [runtime-status] [1840] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-19T04:37:20.050Z] [runtime-status] [1840] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Running api in signature http"}}
+[debug] [2022-05-19T04:37:20.053Z] [runtime-status] [1840] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:37:20.057Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-19T04:37:20.058Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=24499, mapping to path=/payments/create?total=24499 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=24499, mapping to path=/payments/create?total=24499"}}
+[debug] [2022-05-19T04:37:20.064Z] [runtime-status] [1840] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  24499 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  24499","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  24499"}}
+[debug] [2022-05-19T04:37:20.078Z] [runtime-status] [1840] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-19T04:37:20.861Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE"}}
+[debug] [2022-05-19T04:37:20.862Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-19T04:38:22.107Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-19T04:38:22.108Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-19T04:38:22.108Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=1198 --> us-central1-api
+[debug] [2022-05-19T04:38:22.108Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-19T04:38:22.108Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:38:22.108Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY"}}
+[debug] [2022-05-19T04:38:22.109Z] [runtime-status] [1840] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-19T04:38:22.111Z] [runtime-status] [1840] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Running api in signature http"}}
+[debug] [2022-05-19T04:38:22.111Z] [runtime-status] [1840] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:38:22.115Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-19T04:38:22.115Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198"}}
+[debug] [2022-05-19T04:38:22.118Z] [runtime-status] [1840] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  1198 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  1198","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  1198"}}
+[debug] [2022-05-19T04:38:22.120Z] [runtime-status] [1840] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-19T04:38:22.537Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE"}}
+[debug] [2022-05-19T04:38:22.537Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-19T04:38:30.744Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2022-05-19T04:38:30.744Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2022-05-19T04:38:30.744Z] Accepted request POST /myreact-7bae6/us-central1/api/payments/create?total=1198 --> us-central1-api
+[debug] [2022-05-19T04:38:30.745Z] [worker-pool] submitWork(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitWork(triggerId=us-central1-api)"}}
+[debug] [2022-05-19T04:38:30.745Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: Assigning socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:38:30.745Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: BUSY"}}
+[debug] [2022-05-19T04:38:30.746Z] [runtime-status] [1840] Beginning invocation function api! {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Beginning invocation function api!"}}
+[info] i  functions: Beginning execution of "api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"api\""}}
+[debug] [2022-05-19T04:38:30.748Z] [runtime-status] [1840] Running api in signature http {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Running api in signature http"}}
+[debug] [2022-05-19T04:38:30.748Z] [runtime-status] [1840] Attempting to listen to socketPath: \\?\pipe\F:\ReactProject\my-app\functions\1840 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Attempting to listen to socketPath: \\\\?\\pipe\\F:\\ReactProject\\my-app\\functions\\1840"}}
+[debug] [2022-05-19T04:38:30.751Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-05-19T04:38:30.752Z] [functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/myreact-7bae6/us-central1/api/payments/create?total=1198, mapping to path=/payments/create?total=1198"}}
+[debug] [2022-05-19T04:38:30.754Z] [runtime-status] [1840] Ephemeral server handling POST request {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server handling POST request"}}
+[info] >  Payment Request Recieved BOOM!!! for this amount >>>  1198 {"user":"Payment Request Recieved BOOM!!! for this amount >>>  1198","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"\u001b[90m> \u001b[39m Payment Request Recieved BOOM!!! for this amount >>>  1198"}}
+[debug] [2022-05-19T04:38:30.757Z] [runtime-status] [1840] Ephemeral server survived. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [1840] Ephemeral server survived."}}
+[info] i  functions: Finished "api" in ~1s {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"api\" in ~1s"}}
+[debug] [2022-05-19T04:38:31.120Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: IDLE"}}
+[debug] [2022-05-19T04:38:31.121Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2022-05-19T08:42:56.747Z] [worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-api-bc246b48-02b0-4ccb-af50-b5dbdee61bba]: exited"}}
